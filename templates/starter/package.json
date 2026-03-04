@@ -7,6 +7,6 @@
     "build": "meow build"
   },
   "devDependencies": {
-    "meowjs": "^0.1.0"
+    "meowix": "^0.1.0"
   }
 }

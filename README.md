@@ -7,18 +7,18 @@ A minimal reactive UI framework. Write `.meow` files, compile to JavaScript, get
 **Create a new project:**
 
 ```bash
-npx meowjs create my-app
+npx meowix create my-app
 cd my-app
 npm install
-npx meowjs dev
+npx meowix dev
 ```
 
 **Or in an existing project:**
 
 ```bash
-npm install meowjs
-npx meowjs dev      # Start dev server with watch
-npx meowjs build    # Build for production
+npm install meowix
+npx meowix dev      # Start dev server with watch
+npx meowix build    # Build for production
 ```
 
 Then open http://localhost:3000 (dev) or `build/index.html` (build).
@@ -26,7 +26,7 @@ Then open http://localhost:3000 (dev) or `build/index.html` (build).
 ## Project Structure
 
 ```
-meowjs/
+meowix/
 ├── cli.js            # CLI (create, dev, build)
 ├── compiler.js       # Compiler
 ├── templates/       # Project template for meow create
@@ -42,7 +42,7 @@ meowjs/
 | `meow dev [entry]`   | Start dev server (watch + serve) |
 | `meow build [entry]` | Build for production             |
 
-Use via `npx meowjs` or install globally: `npm i -g meowjs`
+Use via `npx meowix` or install globally: `npm i -g meowix`
 
 ## Documentation
 

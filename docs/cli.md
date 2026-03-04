@@ -3,17 +3,17 @@
 ## Installation
 
 ```bash
-npm install meowjs
+npm install meowix
 # or
-pnpm add meowjs
+pnpm add meowix
 ```
 
 Or use without installing:
 
 ```bash
-npx meowjs create my-app
-npx meowjs dev
-npx meowjs build
+npx meowix create my-app
+npx meowix dev
+npx meowix build
 ```
 
 ## Commands

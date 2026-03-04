@@ -1,5 +1,5 @@
 {
-  "name": "meowjs",
+  "name": "meowix",
   "version": "0.1.0",
   "description": "Minimal reactive UI framework",
   "main": "compiler.js",
