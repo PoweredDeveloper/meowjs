@@ -1,4 +1,4 @@
-# Meow Syntax Reference
+# Meowl Syntax Reference
 
 ## File Format
 

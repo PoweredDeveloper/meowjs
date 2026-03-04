@@ -14,7 +14,7 @@ const c = {
 }
 
 const MEOW = `
-  ${c.cyan('◆')} ${c.bold('MeowJS')} — minimal reactive UI
+  ${c.cyan('◆')} ${c.bold('MeowlJS')} — minimal reactive UI
 `
 
 function runCompiler(entry, cwd) {
@@ -57,8 +57,8 @@ function createProject(name) {
   console.log(`  ${c.green('✓')} Created project in ${c.cyan(path.relative(process.cwd(), dir) || '.')}\n`)
   console.log(`  ${c.dim('Next:')}`)
   console.log(`    cd ${name || '.'}`)
-  console.log(`    ${c.cyan('meow dev')}    — start dev server`)
-  console.log(`    ${c.cyan('meow build')}  — build for production\n`)
+  console.log(`    ${c.cyan('npx meowl dev')}    — start dev server`)
+  console.log(`    ${c.cyan('npx meowl build')}  — build for production\n`)
 }
 
 async function dev(entry, cwd) {
@@ -128,16 +128,16 @@ async function main() {
     console.log(MEOW)
     console.log(`
   ${c.bold('Usage:')}
-    npx meow create [name]   Create a new project
-    npx meow dev [entry]     Start dev server (default: main.meow)
-    npx meow build [entry]   Build for production (default: main.meow)
+    npx meowl create [name]   Create a new project
+    npx meowl dev [entry]     Start dev server (default: main.meow)
+    npx meowl build [entry]   Build for production (default: main.meow)
 
   ${c.bold('Examples:')}
-    ${c.cyan('npx meow create my-app')}     Create project in ./my-app
-    ${c.cyan('npx meow create')}            Create project in current directory
-    ${c.cyan('npx meow dev')}               Start dev server
-    ${c.cyan('npx meow build')}             Build main.meow
-    ${c.cyan('npx meow build app.meow')}    Build app.meow
+    ${c.cyan('npx meowl create my-app')}     Create project in ./my-app
+    ${c.cyan('npx meowl create')}            Create project in current directory
+    ${c.cyan('npx meowl dev')}               Start dev server
+    ${c.cyan('npx meowl build')}             Build main.meow
+    ${c.cyan('npx meowl build app.meow')}    Build app.meow
 `)
     return
   }

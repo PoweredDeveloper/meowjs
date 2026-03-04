@@ -1,5 +1,5 @@
 counter = 0
-text = "meow"
+text = "meowl"
 
 function greet = () => { console.log("Hello, " + text + "!") }
 

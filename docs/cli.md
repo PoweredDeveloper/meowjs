@@ -1,4 +1,4 @@
-# Meow CLI
+# Meowl CLI
 
 ## Installation
 
@@ -20,11 +20,11 @@ npx meowl build
 
 ### create
 
-Create a new MeowJS project.
+Create a new MeowlJS project.
 
 ```bash
-meowl create my-app    # Create in ./my-app
-meowl create           # Create in current directory
+npx meowl create my-app    # Create in ./my-app
+npx meowl create           # Create in current directory
 ```
 
 ### dev
@@ -32,8 +32,8 @@ meowl create           # Create in current directory
 Start the dev server with file watching. Rebuilds on `.meow` or `index.html` changes and serves the build at http://localhost:3000.
 
 ```bash
-meowl dev              # Use main.meow as entry
-meowl dev app.meow     # Use app.meow as entry
+npx meowl dev              # Use main.meow as entry
+npx meowl dev app.meow     # Use app.meow as entry
 ```
 
 ### build
@@ -41,8 +41,8 @@ meowl dev app.meow     # Use app.meow as entry
 Build for production.
 
 ```bash
-meowl build            # Build main.meow
-meowl build app.meow   # Build app.meow
+npx meowl build            # Build main.meow
+npx meowl build app.meow   # Build app.meow
 ```
 
 ## Project setup
@@ -52,7 +52,7 @@ After `meowl create my-app`:
 ```bash
 cd my-app
 npm install
-meowl dev
+npx meowl dev
 ```
 
 The template includes `main.meow`, `index.html`, and a `Btn` component.

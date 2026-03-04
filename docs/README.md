@@ -1,4 +1,4 @@
-# MeowJS Documentation
+# MeowlJS Documentation
 
 - **[CLI](cli.md)** — create, dev, build commands
 - **[Syntax Reference](syntax.md)** — File format, prelude, template, components, attributes
