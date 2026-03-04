@@ -1,10 +1,11 @@
 {
-  "name": "meowix",
+  "name": "meowljs",
   "version": "0.1.0",
   "description": "Minimal reactive UI framework",
   "main": "compiler.js",
   "bin": {
-    "meow": "cli.js"
+    "meow": "cli.js",
+    "meowl": "cli.js"
   },
   "exports": {
     ".": "./compiler.js",

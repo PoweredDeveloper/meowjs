@@ -3,10 +3,10 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "meow dev",
-    "build": "meow build"
+    "dev": "meowl dev",
+    "build": "meowl build"
   },
   "devDependencies": {
-    "meowix": "^0.1.0"
+    "meowljs": "^0.1.0"
   }
 }

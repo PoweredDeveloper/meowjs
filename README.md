@@ -1,4 +1,4 @@
-# MeowJS
+# MeowlJS
 
 A minimal reactive UI framework. Write `.meow` files, compile to JavaScript, get a live-updating app.
 
@@ -7,18 +7,18 @@ A minimal reactive UI framework. Write `.meow` files, compile to JavaScript, get
 **Create a new project:**
 
 ```bash
-npx meowix create my-app
+npx meowl create my-app
 cd my-app
 npm install
-npx meowix dev
+npx meowl dev
 ```
 
 **Or in an existing project:**
 
 ```bash
-npm install meowix
-npx meowix dev      # Start dev server with watch
-npx meowix build    # Build for production
+npm install meowljs
+npx meowl dev        # Start dev server with watch
+npx meowl build      # Build for production
 ```
 
 Then open http://localhost:3000 (dev) or `build/index.html` (build).
@@ -26,7 +26,7 @@ Then open http://localhost:3000 (dev) or `build/index.html` (build).
 ## Project Structure
 
 ```
-meowix/
+meowljs/
 ├── cli.js            # CLI (create, dev, build)
 ├── compiler.js       # Compiler
 ├── templates/       # Project template for meow create
@@ -36,13 +36,13 @@ meowix/
 
 ## CLI
 
-| Command              | Description                      |
-| -------------------- | -------------------------------- |
-| `meow create [name]` | Create a new project             |
-| `meow dev [entry]`   | Start dev server (watch + serve) |
-| `meow build [entry]` | Build for production             |
+| Command               | Description                      |
+| --------------------- | -------------------------------- |
+| `meowl create [name]` | Create a new project             |
+| `meowl dev [entry]`   | Start dev server (watch + serve) |
+| `meowl build [entry]` | Build for production             |
 
-Use via `npx meowix` or install globally: `npm i -g meowix`
+Use via `npx meowl` or install globally: `npm i -g meowljs`
 
 ## Documentation
 

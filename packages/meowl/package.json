@@ -1,0 +1,13 @@
+{
+  "name": "meowl",
+  "version": "0.1.0",
+  "description": "CLI for MeowlJS - run meowl create, meowl dev, meowl build",
+  "bin": {
+    "meowl": "index.js"
+  },
+  "dependencies": {
+    "meowljs": "^0.1.0"
+  },
+  "keywords": ["meowljs", "meowl", "cli"],
+  "license": "MIT"
+}
